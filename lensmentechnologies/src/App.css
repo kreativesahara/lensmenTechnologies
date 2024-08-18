@@ -1,0 +1,50 @@
+#root {
+  display: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: auto;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card{
+  place-content: center;
+  color: aliceblue;
+  width: 300px;
+  height: 30vh;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card:hover {
+  background-color: #3a3a3a;
+  cursor: pointer;
+  transition: 0.5s;
+ 
+}
+
+.card:active{
+  background-color: aqua;
+  font-weight: 500;
+  color: #2a2a2a;
+  transition-delay: 5ms;
+}
+
+footer{
+  display: absolute;
+  top: 0;
+  margin-top: 50px;
+  padding: 10 auto;
+}
